@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Jogo da Memória</title>
+  </head>
+  <body>
+    <div class="inicio">
+      <div class="background">
+        <div class="nivel-container">
+          <div class="nivel-content">
+            <input type="radio" name="nivel" id="facil" checked />
+            <label for="facil">facil</label>
+          </div>
+
+          <div class="nivel-content">
+            <input type="radio" name="nivel" id="intermediario" />
+            <label for="intermediario">intermediario</label>
+          </div>
+
+          <div class="nivel-content">
+            <input type="radio" name="nivel" id="dificil" />
+            <label for="dificil">dificil</label>
+          </div>
+        </div>
+        <button id="comeco">Começar</button>
+      </div>
+    </div>
+    <main class="memory-game"></main>
+
+    <div class="fim hidden">
+      <div class="content">
+        <div class="message">
+          <h2>Você venceu!!!</h2>
+          <button id="fim">Voltar</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="./api.js"></script>
+    <script src="./jogo.js"></script>
+  </body>
+</html>
