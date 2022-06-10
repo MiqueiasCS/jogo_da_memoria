@@ -6,6 +6,9 @@ Jogo criado para projeto do bootcamp TQI Fullstack Developer.
 - Rick and Morty API
 - canvas-confetti
 
+## URL
+[https://miqueiascs.github.io/jogo_da_memoria/](https://miqueiascs.github.io/jogo_da_memoria/)
+
 ## Pagina inicial
 
 <div align="center">
